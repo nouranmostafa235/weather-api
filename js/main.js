@@ -37,7 +37,7 @@ async function display(){
               <p class="my-auto">${days[new Date(`${data.forecast.forecastday[2].date}`).getDay()]}</p>
             </div>
             <div class="lower py-5">
-              <img src="https:${data.forecast.forecastday[2].day.condition.icon}" alt="">
+              <img src="https:${data.forecast.forecastday[2].day.condition.icon}" class="mb-3" alt="">
               <p class="fs-4 fw-semibold">${data.forecast.forecastday[2].day.maxtemp_c}&deg;C</p>
               <p class="grey">${data.forecast.forecastday[2].day.mintemp_c}&deg;</p>
               <p class="blue">${data.forecast.forecastday[2].day.condition.text}</p>
@@ -86,7 +86,7 @@ async function getNews() {
               <p class="my-auto">${days[new Date(`${data.forecast.forecastday[2].date}`).getDay()]}</p>
             </div>
             <div class="lower py-5">
-              <img src="https:${data.forecast.forecastday[2].day.condition.icon}" alt="">
+              <img src="https:${data.forecast.forecastday[2].day.condition.icon}" class="mb-3" alt="">
               <p class="fs-4 fw-semibold">${data.forecast.forecastday[2].day.maxtemp_c}&deg;C</p>
               <p class="grey">${data.forecast.forecastday[2].day.mintemp_c}&deg;</p>
               <p class="blue">${data.forecast.forecastday[2].day.condition.text}</p>
