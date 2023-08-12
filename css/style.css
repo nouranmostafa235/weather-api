@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+  nav{
+    background-color: #1E202B;
+    padding: 40px 0px !important;
+  }
+  a {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff !important;
+    padding: 0px 25px !important;
+  }
+  
+  .active {
+    background-color: transparent !important ;
+    color: #0194D0 !important;
+    border-radius: 50px !important;
+    border: #0194D0 2px solid;
+    margin-right: 7px;
+  }
+  li a:hover{
+    color: #0194D0 !important;
+    border-radius: 50px !important;
+    border: #0194D0 2px solid;
+  }
+  .home{
+    background-image: url(../banner.png);
+    background-position: center center;
+    background-size: cover;
+    min-height: 100vh;
+    background-attachment: fixed;
+  }
+  .layer{
+    min-height: 100vh;
+  }
+  .search{
+    background-color: #1E202B;
+    color: #fff !important;
+  }
+  ::placeholder { 
+    color: grey !important;
+    opacity: 1 !important; 
+  }
+  .inputs{
+    margin-top: 160px;
+  }
+  footer{
+    background-color: #262936;
+    margin-top: 160px;
+    padding-bottom: 30px;
+  }
+
+  .search:focus{
+    background-color: #1E202B !important;
+  }
+ .find{
+  position: relative;
+  right: 118px;
+  padding: 0px 40px !important;
+  margin: 5px 0px;
+  background-color: #009AD8;
+  color: #fff;
+ }
+ .subscribe{
+  position: relative;
+  right: 118px;
+  padding: 0 22px !important;
+  margin: 5px 0px;
+  background-color: #009AD8;
+  color: #fff;
+ }
+ .find:hover{
+  background-color: #009AD8;
+  color: #fff;
+ }
+ .subscribe:hover{
+  background-color: #009AD8;
+  color: #fff;
+ }
+ 
+ .first,.third{
+  background-color: #323544;
+ }
+ .first .upper , .third .upper{
+  background-color: #2D303D;
+  padding: 7px 0;
+  color: #BFC1C8;
+  font-size: 15px;
+
+ }
+
+ .second{
+  background-color: #262936;
+ }
+ .second .upper{
+  background-color: #222530;
+  padding: 7px 0;
+  color: #BFC1C8;
+  font-size: 15px;
+ }
+.grey{
+  color: #BFC1C8;
+}
+.blue{
+  color: #009AD8;
+}
+.label{
+  font-size: 90px;
+}
+footer ul li{
+  width: 40px;
+  height: 40px;
+  border: 2px solid transparent;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ color: #008fd6;
+ transition-property: all;
+ transition-duration: 0.4s;
+}
+footer ul li:hover{
+  background-color: #009AD8;
+  color: #fff !important;
+}
